@@ -1,5 +1,5 @@
 <template>
   <div id="planning">
-    <h1> Это страница планинга </h1>
+        <h1> Это страница plannig </h1>
   </div>
 </template>
