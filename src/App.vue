@@ -1,9 +1,7 @@
 <template>
 	  <div id="app">
 	    <div id="nav">
-        <router-link to="/incomes-costs">ДОХОД/РАСХОД</router-link> |
-        <router-link to="/">ЦЕЛЬ</router-link> |
-	      <router-link to="/funds-flow">Funds-flow</router-link> |
+	      <router-link to="/funds-flow">Funds-flow</router-link>
 	      <router-link to="/planning">Planning</router-link>
 	    </div>
 	    <router-view/>
@@ -11,7 +9,7 @@
 </template>
 
 <style lang="stylus">
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
 html,body
   height 100%
   padding 0
@@ -24,11 +22,16 @@ body
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   color #2c3e50
+  height 72px
 
 #nav
+  background: rgba(0,0,0, 0.2);
+  color #fff
   
-  padding 30px
   a
+    margin 0 78px 0 61px
+    padding 23px 0 10px 0
+    text-decoration none
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -39,4 +42,9 @@ body
     color #fff
     &.router-link-exact-active
       color #fff
+      display inline-block
+      border-bottom 4px solid #fff
+      padding 23px 0 23px 0
+      margin 0 78px 0 61px
+
 </style>
