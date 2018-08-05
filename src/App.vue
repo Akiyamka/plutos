@@ -1,7 +1,7 @@
 <template>
 	  <div id="app">
 	    <div id="nav">
-	      <router-link to="/funds-flow">Funds-flow</router-link>
+	      <router-link to="/">Funds-flow</router-link>
 	      <router-link to="/planning">Planning</router-link>
 	    </div>
 	    <router-view/>
@@ -27,10 +27,12 @@ body
 #nav
   background: rgba(0,0,0, 0.2);
   color #fff
-  
+  height 72px
+
   a
-    margin 0 78px 0 61px
-    padding 23px 0 10px 0
+    display inline-block
+    height 45px
+    margin 23px 78px 0 61px
     text-decoration none
     font-family: Ubuntu;
     font-style: normal;
@@ -39,12 +41,10 @@ body
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
-    color #fff
+    color rgba(255, 255, 255, .3);
+
     &.router-link-exact-active
       color #fff
-      display inline-block
-      border-bottom 4px solid #fff
-      padding 23px 0 23px 0
-      margin 0 78px 0 61px
+      box-shadow: 0 4px 0 #fff
 
 </style>
