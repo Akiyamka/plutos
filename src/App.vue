@@ -31,7 +31,7 @@ body
     text-decoration none
     display: inline-block
     font-family: Ubuntu;
-    margin: 0 78px 0 61px
+    margin: 0 39px 0
     font-style: normal
     font-weight: bold
     line-height: normal
