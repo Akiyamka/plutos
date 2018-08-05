@@ -21,30 +21,28 @@ body
   font-family 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  color #2c3e50
-  height 72px
+  color #2c3e5
 
 #nav
-  background: rgba(0,0,0, 0.2);
+  background: rgba(0,0,0, 0.2)
   color #fff
-  height 72px
 
   a
-    display inline-block
-    height 45px
-    margin 23px 78px 0 61px
     text-decoration none
+    display: inline-block
     font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color rgba(255, 255, 255, .3);
+    margin: 0 78px 0 61px
+    font-style: normal
+    font-weight: bold
+    line-height: normal
+    font-size: 22px
+    text-align: center
+    text-transform: uppercase
+    color rgba(255, 255, 255, .3)
+    padding: 23px 0
 
     &.router-link-exact-active
       color #fff
-      box-shadow: 0 4px 0 #fff
+      box-shadow: inset 0 -4px 0 #fff
 
 </style>
