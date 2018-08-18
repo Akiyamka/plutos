@@ -45,6 +45,23 @@ body
       box-shadow: inset 0 -4px 0 #fff
       color: #fff
 
+/* style for scrollbar  */
+
+/* width */
+::-webkit-scrollbar
+  width: 8px
+  background: rgba(0, 0, 0, .1) 
+  border-radius: 5px
+
+/* Track */
+::-webkit-scrollbar-track 
+  border-radius: 5px
+ 
+/* Handle */
+::-webkit-scrollbar-thumb
+  border-radius: 10px
+  background: rgba(255, 255, 255, 0.3)
+
 .wrapper
   width: 1064px
   font-family: Ubuntu
@@ -86,35 +103,37 @@ body
 
 .left-title
   display: flex
+  margin: 12px 47px 0
   
   &__name
     flex-grow: 1
     font-size: 12px
     color: rgba(0, 0, 0, 0.3)
-    margin: 12px 0 0 47px;
+    margin: 0
 
   &__count
+    margin: 0
     text-align: right
     flex-grow: 1
     font-size: 12px
     color: rgba(0, 0, 0, 0.3)
-    margin: 12px 47px 0 0;
 
 .right-title
   display: flex
+  margin: 12px 47px 0
 
   &__name
     flex-grow: 1
     font-size: 12px
     color: rgba(0, 0, 0, 0.3)
-    margin: 12px 0 0 47px;
+    margin: 0
 
   &__count
     text-align: right
     flex-grow: 1
     font-size: 12px
     color: rgba(0, 0, 0, 0.3)
-    margin: 12px  47px 0 0;
+    margin: 0
 
 .items
   margin-top: 14px
@@ -135,7 +154,7 @@ body
   margin-top: 10.5px
 
   &__name
-    background: rgba(0, 0, 0, 0.1)
+    background: rgba(0, 0, 0, .1)
     padding: 8px
     border: none
     margin-right: 8px
@@ -143,6 +162,16 @@ body
     font-family: Ubuntu;
     border-radius: 2px
     color: #fff
+  
+  &__name::-webkit-input-placeholder
+    color: #ABC8D8
+  &__name:-moz-placeholder
+    color: #ABC8D8
+  &__name::-moz-placeholder
+    color: #ABC8D8
+  &__name:-ms-input-placeholder
+    color: #ABC8D8
+  
   
   &__how-much
     width: 100px
@@ -153,6 +182,16 @@ body
     padding: 8px
     background: rgba(0, 0, 0, 0.1)
     font-family: Ubuntu;
+    text-align: right
+
+  &__how-much::-webkit-input-placeholder
+    color: #ABC8D8
+  &__how-much:-moz-placeholder
+    color: #ABC8D8
+  &__how-much::-moz-placeholder
+    color: #ABC8D8
+  &__how-much:-ms-input-placeholder
+    color: #ABC8D8
 
   &__btn
     padding: 8px 23px;
