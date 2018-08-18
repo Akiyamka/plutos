@@ -141,49 +141,6 @@ body
   overflow-y: scroll
   padding: 0 16px 0 0
 
-.item
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25)
-  background: #fff
-  border-radius: 2px
-  margin-bottom: 8px
-  font-size: 16px
-  display: flex
-  color: #466C7D
-
-  &__text
-    vertical-align: middle
-    margin-left: 8px
-
-  &__left
-    flex-grow: 2
-    
-  &__right
-    text-align: right
-    flex-grow: 1
-
-  &__switcher
-    margin: 8px
-    background-color: #ABC8D8 
-    width: 16px
-    height: 24px
-    display: inline-block
-    vertical-align: middle
-    border-radius: 4px
-
-  &__trash
-    width: 20px
-    height: 20px
-    background-color: #ABC8D8
-    display: inline-block
-    vertical-align: middle
-    margin: 10px 8px
-
-  &__how-much
-    display: inline-block
-    margin-right: 12px
-    vertical-align: middle
-    
-
 .add-form
   margin-top: 10.5px
 
