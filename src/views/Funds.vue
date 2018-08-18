@@ -17,40 +17,58 @@
 				</div>
 
 				<div class='items'>
-			  		<div class='items__item'>
+			  		
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
+			  		</div>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
+			  		</div>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
+			  		</div>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
+			  		</div>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
+			  		</div>
 
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-
-				  		<div class='trash'></div>
-
-			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-			  		</div>
 				</div>
 
 				<div class='add-form'>
@@ -69,40 +87,65 @@
 				</div>
 
 				<div class='items'>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
 			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
 			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
 			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
 			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
 			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
-			  		</div>
-			  		<div class='items__item'>
-				  		<span class='items__name'>Item name</span>
-				  		&nbsp;&nbsp;&nbsp;
-				  		<span class='items__how-much'>$322</span>
+			  		<div class='item'>
+			  			<div class='item__left'>
+					  		<span class='item__switcher'></span>
+					  		<span class='item__text'>item name</span>
+			  			</div>
+				  		<div class='item__right'>
+					  		<span class='item__how-much'>$322</span>
+					  		<span class='item__trash'></span>
+				  		</div>
 			  		</div>
 		  		</div>
 
